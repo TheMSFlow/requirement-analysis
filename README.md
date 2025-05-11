@@ -98,3 +98,41 @@ Ensuring the requirements are complete, accurate, and agreed upon:
 - **Traceability**: Mapping each requirement to design, implementation, and testing to ensure full coverage.
 
 Each of these activities contributes to building a solid foundation for the software development process, reducing risk, and increasing the likelihood of delivering a successful product.
+
+
+
+
+## Types of Requirements
+
+In software development, requirements are generally classified into two categories: **Functional Requirements** and **Non-functional Requirements**. Both are essential to building a complete and effective system.
+
+### Functional Requirements ⚙️
+
+**Definition:**  
+Functional requirements describe *what* the system should do. They define the core operations, features, and behaviors that the software must support to fulfill user needs.
+
+**Examples for an Airbnb Clone Project:**
+
+- **User Registration**: Users should be able to create an account by providing personal details such as name, email, and password.
+- **User Authentication**: The system should support secure login/logout functionality using registered credentials.
+- **Search Properties**: Users should be able to search for properties using filters like location, price range, and availability.
+- **Property Listings**: Hosts should be able to create, update, and delete property listings with details like title, description, price, and images.
+- **Booking System**: Users should be able to book available properties, view booking history, and cancel upcoming reservations.
+
+These requirements are directly tied to user interactions and business logic.
+
+### Non-functional Requirements 🛡️
+
+**Definition:**  
+Non-functional requirements describe *how* the system should perform. They are concerned with system attributes such as performance, security, usability, and scalability rather than specific behaviors.
+
+**Examples for an Airbnb Clone Project:**
+
+- **Performance**: The system should load pages within 2 seconds and support up to 1000 concurrent users without performance degradation.
+- **Security**: User data should be encrypted; the system must prevent unauthorized access and defend against vulnerabilities like SQL injection and cross-site scripting (XSS).
+- **Scalability**: The application should support horizontal scaling to handle growing user and listing volume.
+- **Usability**: The platform should offer a clean, intuitive user interface accessible on both desktop and mobile devices.
+- **Reliability**: The system should maintain 99.9% uptime and automatically recover from crashes or server failures.
+
+While functional requirements define the system’s **features**, non-functional requirements define the **quality** of those features and the user experience.
+

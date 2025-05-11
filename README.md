@@ -182,9 +182,7 @@ Use Case Diagrams help ensure that all functional requirements are identified an
 
 ![Use case diagram for the booking project](/alx-booking-uc.png)
 
-
-
-
+<br> <br><br><br>
 
 ## Acceptance Criteria ✅
 

@@ -136,3 +136,89 @@ Non-functional requirements describe *how* the system should perform. They are c
 
 While functional requirements define the system’s **features**, non-functional requirements define the **quality** of those features and the user experience.
 
+
+
+
+
+## Use Case Diagrams 📊
+
+### What are Use Case Diagrams?
+
+**Use Case Diagrams** are a type of Unified Modeling Language (UML) diagram used to visually represent the interactions between users (actors) and a software system. They depict the system’s functionality from an end-user’s perspective by outlining the different ways users can interact with the system to achieve specific goals.
+
+Each diagram typically includes:
+
+- **Actors**: Entities (usually users or external systems) that interact with the system.
+- **Use Cases**: The specific actions or services the system performs in response to actor interactions.
+- **Relationships**: Connections that show how actors engage with various use cases.
+
+Use Case Diagrams are especially useful during the requirement analysis phase to capture functional requirements in a clear, visual format that both technical and non-technical stakeholders can understand.
+
+### Example: Use Case Diagram in a Booking System (Airbnb Clone)
+
+#### Actors:
+- Guest (Registered User)
+- Host
+- Admin
+
+#### Use Cases:
+- Search properties
+- Book a property
+- Manage bookings
+- Add/edit/delete listings
+- Register/Login
+- Review booking history
+- Approve property listings
+
+### Benefits of Use Case Diagrams
+
+- **Improves Communication**: Helps bridge the gap between stakeholders and the development team by visually representing system interactions.
+- **Clarifies Requirements**: Makes it easier to identify all the functionalities the system needs to support.
+- **Encourages Collaboration**: Supports discussions and feedback among teams during early phases of development.
+- **Supports Testing and Validation**: Each use case can be turned into a test scenario, making it useful for QA and validation planning.
+
+Use Case Diagrams help ensure that all functional requirements are identified and accounted for in the system design. They provide a high-level overview that supports effective planning and development.
+
+
+
+
+
+## Acceptance Criteria ✅
+
+**Acceptance Criteria** are predefined conditions that a software feature or functionality must meet in order to be accepted by stakeholders, product owners, or QA teams. They act as a checklist for validating whether the implementation aligns with the original requirements and user expectations.
+
+### Why is Acceptance Criteria Important?
+
+- **Clarifies Requirements**: Helps eliminate ambiguity by defining exactly what needs to be delivered.
+- **Guides Development and Testing**: Developers and testers use the criteria to build and validate features.
+- **Facilitates Communication**: Ensures all stakeholders share a common understanding of the desired outcome.
+- **Supports Quality Assurance**: Acts as a basis for test cases, ensuring all requirements are met before deployment.
+
+### How to Define Good Acceptance Criteria
+
+Acceptance criteria should be:
+
+- **Specific**: Clearly define expected behavior and outcomes.
+- **Measurable**: Include quantifiable elements (e.g., time, status, content).
+- **Achievable**: Technically and realistically possible.
+- **Relevant**: Aligned with user and business goals.
+- **Time-bound**: Include time-related expectations where applicable.
+
+### Example: Acceptance Criteria for Checkout Feature (Booking Management)
+
+**User Story:**  
+As a registered user, I want to be able to checkout and confirm a booking, so that I can reserve a property for my stay.
+
+**Acceptance Criteria:**
+
+1. User must be logged in to proceed to checkout.
+2. The system should display booking summary including property details, dates, and total cost.
+3. User can select or enter payment details securely.
+4. After payment confirmation, the system must:
+   - Store the booking in the user’s booking history.
+   - Reduce the property's availability accordingly.
+   - Send a confirmation email within 2 minutes.
+5. The entire process should be completed in under 60 seconds under normal conditions.
+6. Error messages should appear clearly if payment fails or required fields are missing.
+
+These criteria help ensure that the Checkout feature not only works as intended but also meets user expectations and system standards.

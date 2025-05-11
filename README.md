@@ -180,7 +180,7 @@ Use Case Diagrams are especially useful during the requirement analysis phase to
 Use Case Diagrams help ensure that all functional requirements are identified and accounted for in the system design. They provide a high-level overview that supports effective planning and development.
 
 
-![Use case diagram for the booking project](/alx-booking-uc.png.png)
+![Use case diagram for the booking project](/alx-booking-uc.png)
 
 
 
